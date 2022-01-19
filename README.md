@@ -5,7 +5,7 @@
 - 📫 How to reach me: https://twitter.com/davidedesi
 
 ## Folders:
-__Data Science Projects:__ it contains the end to end Data Science projects listes in this Medium article. I used it to do some exerices and gain experience on building ML models
+__Data Science Projects:__ it contains the end to end Data Science projects listes in this Medium article: https://towardsdatascience.com/5-solved-end-to-end-data-science-projects-in-python-acdc347f36d0. I use this folder to do some exercises and gain experience on building ML models, data visualization and Python data manipulation.
 
 <!---
 davidedesi/davidedesi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
