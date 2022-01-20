@@ -5,7 +5,9 @@
 - 📫 How to reach me: https://twitter.com/davidedesi
 
 ## Folders:
-__Data Science Projects:__ it contains the end to end Data Science projects listes in this Medium article: https://towardsdatascience.com/5-solved-end-to-end-data-science-projects-in-python-acdc347f36d0. I use this folder to do some exercises and gain experience on building ML models, data visualization and Python data manipulation.
+- __Data Science Projects:__ it contains the end to end Data Science projects listes in this Medium article: https://towardsdatascience.com/5-solved-end-to-end-data-science-projects-in-python-acdc347f36d0. I use this folder to do some exercises and gain experience on building ML models, data visualization and Python data manipulation.
+
+- __Statistics exercises with Python:__ it contains some exercises and quizzes from the "Become a Probability & Statistics Master" (https://www.udemy.com/course/statistics-probability/) course on Udemy and how I completed them using Python.
 
 <!---
 davidedesi/davidedesi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
