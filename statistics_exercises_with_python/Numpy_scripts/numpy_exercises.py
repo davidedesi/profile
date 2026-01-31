@@ -54,4 +54,34 @@ a
 
 # ora a scalar value
 a[-2:] = 99
+
+import matplotlib.pyplot as plt
+
+img = plt.imread("C:/Users/david/OneDrive/Documenti/Git/profile/statistics_exercises_with_python/Numpy_scripts/dc_metro.png")
+
+def smooth(img):
+    avg_img = (   img[1:-1 ,1:-1] #center
+                + img[ :-2 ,1:-1] #top
+                + img[2:   ,1:-1] #bottom
+                + img[1:-1 , :-2] #left
+                + img[1:-1 ,2:  ] #right
+                 ) / 5.0
+    return avg_img
+
+smoothed = smooth(img)
+plt.imshow(smoothed)
+plt.show()
+
+#fancy indexing
+a = np.arange(0,80,10)
 a
+
+indices = [1,2,-3]
+y = a[indices]
+print(y)
+
+#fancy indexing in 2d
+a = np.arange(0,100).reshape(10,10) #2d array, rows by 10 elements each
+
+a[[0,1,2,3,4],[1,2,3,4,5]]
+a[3:, [0,2,5]]
