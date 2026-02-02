@@ -85,3 +85,10 @@ a = np.arange(0,100).reshape(10,10) #2d array, rows by 10 elements each
 
 a[[0,1,2,3,4],[1,2,3,4,5]]
 a[3:, [0,2,5]]
+
+# exercise
+a = np.arange(25).reshape(5, 5)
+a[[0,2,3,3],[2,3,1,4]]
+
+# array broadcasting
+
