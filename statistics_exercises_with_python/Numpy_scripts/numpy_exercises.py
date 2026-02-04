@@ -90,5 +90,28 @@ a[3:, [0,2,5]]
 a = np.arange(25).reshape(5, 5)
 a[[0,2,3,3],[2,3,1,4]]
 
-# array broadcasting
+# array calculation methon
+a = np.array([[1,2,3],[4,5,6]])
+a
+a.sum()
+a.sum(axis=0)
+a.sum(axis=-1)
 
+a = np.array([-1,2,5,5])
+a == a.max()
+np.where(a == a.max())
+np.where(a > 0)
+
+# reshape - return a new array
+a = np.array([[0,1,2],[3,4,5]])
+a.reshape(3,2)
+
+# shape - similarly can be used to reshape the array:
+a = np.arange(6)
+a
+a.shape = (2,3)
+a
+
+# flatten: take a multidimensional array and turn into a flat array
+a.flatten()
+a
